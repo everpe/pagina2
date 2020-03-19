@@ -497,6 +497,12 @@ img{
 } */
 /* Parte Responsive-----Parte Responsive-----Parte Responsive-----Parte Responsive  */
 @media screen and (max-width:700px){
+  .nav1{
+    width: auto;
+    /* color: #fff; */
+    /* width: 100; */
+    border: solid 3px black; 
+  }
   .nav2{
     color: #fff;
     /* width: 100; */
@@ -557,7 +563,7 @@ img{
 
   .marca-aliados{
     font-size: 20px;
-    width: 80%;
+    width: auto;
     margin: 2%;
     border:solid 3px salmon;
     color: rgb(103, 194, 179);
@@ -566,8 +572,8 @@ img{
     margin-top: 5px;
   }
   .container-allf{
-    width: 80%;
-    margin-left: 1.5%;
+    width: 90%;
+    margin:1%;
     /* border: solid 5px purple; */
     display: inline-block;
     justify-content: center;
