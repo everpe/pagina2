@@ -504,6 +504,7 @@ img{
   body{
       font-family: 'open-sans';
       background: white;
+
   }
   img{
     vertical-align: top;
@@ -679,7 +680,7 @@ img{
   } */
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:300px){
   *{
     margin: 0;
     padding: 0;
