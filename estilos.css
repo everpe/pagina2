@@ -94,8 +94,6 @@ img{
   #nav{
     width: 100%;
     position: fixed;
-    /* height: 80px; */
-    /* color: white; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);/*Cuadrito sombreado*/
     font-weight: bold;
     max-height: 130px;
@@ -499,22 +497,42 @@ img{
 @media screen and (max-width:700px){
   header{
     width: 100%;
-    border: solid 3px black;
+    height: 600px;
+    background: linear-gradient(to bottom,
+      rgba(211,135,20,.6),
+      rgba(29,241,171,.6),
+      rgba(7,109,150,.45)
+    ),url(imagenes/fondo2.jpeg);
+    background-attachment: fixed;/*Cuando se mueve muestra el mismo color*/
+    /* background-position: center; */
+    background-size: cover;/* se adapta la pantalla*/
+    font-size: 10px;
+    border: solid 3px purple;
+  }
+  #nav{
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);/*Cuadrito sombreado*/
+    font-weight: bold;
+    max-height: 130px;
+    /* border: solid 3px; */
   }
   .nav1{
-    width: auto;
-    /* color: #fff; */
-    /* width: 100; */
-    border: solid 3px black; 
-  }
-  .nav2{
+    background: transparent;
+    height: 75px;
     color: #fff;
-    /* width: 100; */
-    border: solid 3px black; 
+    
+  }
+   .nav2{
+    background-color:white;
+    height: 85px;
+    color: var(--azul);
+    /* border: solid 3px blue ; */
   }
   .icono{
       display:inline-block;
       cursor: pointer;
+      margin-right: 1%;
   }
   .enlaces{
     position: fixed;/*para que no se aline a flex-box*/
@@ -648,7 +666,7 @@ img{
   } */
 }
 
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
   :root{
     --espacios-contenido: 25px;
   }
@@ -670,5 +688,5 @@ img{
     margin: auto;
   }
   
-}
+} */
 /* Fin Parte responsive */
