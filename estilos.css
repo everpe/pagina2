@@ -538,7 +538,7 @@ img{
     background-color:white;
     height: 85px;
     color: var(--azul);
-    /* border: solid 3px blue ; */
+    border: solid 3px blue ;
   }
   .icono{
       display:inline-block;
