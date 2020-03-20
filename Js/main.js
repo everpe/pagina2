@@ -25,7 +25,7 @@ function menus(){
         nav.style.transition='1s';
 
         menu.style.top='75px';//le da altura al menu para que se adapte al alto del nav*/
-        abrir.style.color='#fff';//color blanco si esta arriba spam
+        abrir.style.color='red';//color blanco si esta arriba spam
 
         logo.style.height='75px'; //logo escuela Taller   
         // $(logo).hide();
